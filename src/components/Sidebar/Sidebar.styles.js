@@ -22,6 +22,7 @@ export const StyledSidebarMenuContainer = styled("div", {
   padding: "20px 40px",
   backgroundColor: "$secondary",
   borderRadius: "16px",
+  zIndex: 100,
   shadow: 2,
   visibility: "hidden",
   opacity: 0,

@@ -10,6 +10,7 @@ export const StyledHeader = styled("div", {
   backgroundColor: "$primary",
 });
 
+
 export const StyledHeaderLogo = styled("img", {
   width: "100px",
   objectFit: "contain",
