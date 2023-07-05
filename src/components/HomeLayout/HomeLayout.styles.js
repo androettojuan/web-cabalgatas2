@@ -35,3 +35,12 @@ export const StyledTitle = styled("div", {
   transform: "translate(-50%, -50%)",
   zIndex: 20,
 });
+
+export const StyledMainTitle = styled("div", {
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: "100%",
+  maxWidth: "1000px",
+});

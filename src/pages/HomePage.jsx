@@ -16,6 +16,9 @@ const HomePage = () => {
             ES MOMENTO DE
           </Title>
         </HomeLayout.Title>
+        <HomeLayout.MainTitle>
+          <StyledHomeLayoutImg src="img/title-home.png" alt="main-title" />
+        </HomeLayout.MainTitle>
       </HomeLayout.Fondo>
     </HomeLayout>
   );
