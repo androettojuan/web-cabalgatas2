@@ -15,6 +15,8 @@ const Sidebar = () => {
         <StyledSidebarMenuButton>Inicio</StyledSidebarMenuButton>
         <StyledSidebarMenuButton>Elegí tu aventura</StyledSidebarMenuButton>
         <StyledSidebarMenuButton>Testimonios</StyledSidebarMenuButton>
+        <StyledSidebarMenuButton>Nuestro equipo</StyledSidebarMenuButton>
+        <StyledSidebarMenuButton>Preguntas frecuentes</StyledSidebarMenuButton>
         <StyledSidebarMenuButton>Contactos</StyledSidebarMenuButton>
       </StyledSidebarMenuContainer>
     </StyledSidebar>

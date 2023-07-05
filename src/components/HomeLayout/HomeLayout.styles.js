@@ -38,9 +38,10 @@ export const StyledTitle = styled("div", {
 
 export const StyledMainTitle = styled("div", {
   position: "absolute",
-  top: "50%",
+  top: "42%",
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: "100%",
   maxWidth: "1000px",
+  userSelect: "none",
 });
