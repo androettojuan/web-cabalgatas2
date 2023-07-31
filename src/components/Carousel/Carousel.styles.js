@@ -1,65 +1,80 @@
 import { styled } from "../../theme/styled";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-export const StyledCarouselContainer = styled("div", {
+export const StyledCarousel = styled("div", {
   display: "flex",
   flexDirection: "row",
   justifyContent: "center",
   alignItems: "center",
-  margin: "40px 0px",
+  position: "relative",
 });
 
-export const StyledButtonBackAndNext = styled("div", {
-  borderRadius: "50%",
-  backgroundColor: "#fff",
+export const StyledButton = styled("button", {
   width: "50px",
   height: "50px",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
+  fontSize: "18px",
   cursor: "pointer",
-  margin: "0px 20px",
+  borderRadius: "50%",
+  zIndex: "2",
+  variants: {
+    color: {
+      next: {
+        backgroundColor: "$brown",
+        color: "$white",
+        border: "none",
+        position: "absolute",
+        right: "240px",
+        top: "50%",
+        transform: "translateY(-50%)",
+      },
+      back: {
+        backgroundColor: "$brown",
+        color: "$white",
+        border: "none",
+        position: "absolute",
+        left: "240px",
+        top: "50%",
+        transform: "translateY(-50%)",
+      },
+    },
+  },
 });
 
-export const StyledButtonBackIcon = styled(IoIosArrowBack, {
-  fontSize: "24px",
-  color: "$brown",
-});
-
-export const StyledButtonNextIcon = styled(IoIosArrowForward, {
-  fontSize: "24px",
-  color: "$brown",
-});
-
-export const StyledPhotosContainer = styled("div", {
+export const StyledCarouselContent = styled("div", {
   display: "flex",
   flexDirection: "row",
   justifyContent: "center",
   alignItems: "center",
-  gap: "24px",
-  margin: "20px 0",
-  userSelect: "none",
+  position: "relative",
+  margin: "60px 0",
 });
 
-export const StyledPhotoContainer = styled("div", {
-  display: "flex",
-  flexDirection: "column",
-  justifyContent: "center",
-  alignItems: "center",
-  padding: "10px",
-  shadow: 1,
-  backgroundColor: "#fff",
-});
-
-export const StyledPhoto = styled("img", {
-  height: "280px",
-  width: "280px",
+export const StyledCarouselContentPhoto = styled("img", {
+  width: "380px",
+  height: "320px",
   objectFit: "cover",
-});
-
-export const StyledPhotoDescription = styled("span", {
-  fontSize: "22px",
-  fontWeight: "bold",
-  color: "$brown",
-  marginTop: "10px",
+  border: "1px solid $grey",
+  variants: {
+    current: {
+      true: {
+        opacity: "1",
+        zIndex: "1",
+        position: "absolute",
+        left: "50%",
+        top: "50%",
+        transform: "translate(-50%, -50%)",
+        transition: "none 0.5s ease-in-out",
+        transitionProperty: "opacity, width, height",
+      },
+      false: {
+        opacity: "0.5",
+        transition: "opacity 0.4s ease-in-out",
+        width: "300px",
+        height: "240px",
+        margin: "0 160px",
+      },
+      none: {
+        display: "none",
+      },
+    },
+  },
 });

@@ -34,6 +34,7 @@ export const StyledTitle = styled("div", {
   left: "50%",
   transform: "translate(-50%, -50%)",
   zIndex: 20,
+  margin: "18px 0",
 });
 
 export const StyledMainTitle = styled("div", {
