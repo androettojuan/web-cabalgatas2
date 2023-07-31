@@ -4,14 +4,15 @@ export const StyledTitle = styled("h1", {
   margin: 0,
   variants: {
     color: {
-      secondary: {
+      secondary: { color: "$brown" },
+      white: {
         color: "$white",
         textShadow:
           "3px 3px 0px #865333, -3px -3px 0px #865333, 3px -3px 0px #865333, -3px 3px 0px #865333",
       },
-      white: { color: "$white" },
       brown: { color: "$brown" },
       primary: { color: "$brown" },
+      dark: { color: "$dark" },
     },
     size: {
       xs: { fontSize: "18px" },

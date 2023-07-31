@@ -29,7 +29,7 @@ const Section2 = () => {
   return (
     <Section2Layout>
       <Section2Layout.Title>
-        <Title size="lg" color="secondary" shadow="2" letterSpacing="2">
+        <Title size="lg" color="white" shadow="2" letterSpacing="2">
           ELEGÍ TU AVENTURA
         </Title>
       </Section2Layout.Title>

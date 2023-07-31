@@ -27,6 +27,7 @@ export const {
       white: "#ffffff",
       primary: "#c2aa8c",
       brown: "#865333",
+      litebrown: "#E2D3BA",
       dark: "#333333",
       grey: "#a1a1a1",
       secondary: "#efebe5",
