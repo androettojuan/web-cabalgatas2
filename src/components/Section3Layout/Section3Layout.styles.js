@@ -8,7 +8,7 @@ export const StyledSection3Layout = styled("div", {
   position: "relative",
   height: "768px",
   borderTop: "1px solid $brown",
-  borderBottom: "1px solid $brown",
+  borderBottom: "1px solid $primary",
   backgroundColor: "$secondary",
 });
 

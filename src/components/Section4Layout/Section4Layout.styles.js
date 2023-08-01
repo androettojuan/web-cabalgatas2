@@ -6,7 +6,7 @@ export const StyledSection4Layout = styled("div", {
     justifyContent: "space-between",
     alignItems: "center",
     position: "relative",
-    borderBottom: "1px solid $brown",
+    borderBottom: "1px solid $primary",
     width: "100%",
 });
 
