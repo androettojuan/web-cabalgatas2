@@ -13,6 +13,7 @@ const Section3 = () => {
         <Title size="md" color="dark">
           Disfrutá una Experiencia Inolvidable
         </Title>
+        <br />
         <Paragraph>
           Nuestras cabalgatas son una experiencia que cambia la vida, llena de
           paisajes, gastronomía, fotografías increíbles y recuerdos

@@ -11,6 +11,7 @@ export const StyledHomeLayoutFondo = styled("div", {
   alignItems: "center",
   justifyContent: "center",
   position: "relative",
+  borderTop: "1px solid $brown",
 });
 
 export const StyledHomeLayoutFondoOscuro = styled("div", {

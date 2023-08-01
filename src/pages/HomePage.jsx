@@ -12,7 +12,7 @@ const HomePage = () => {
         <HomeLayout.FondoOscuro />
         <StyledHomeLayoutImg src="img/portada.jpg" alt="portada" />
         <HomeLayout.Title>
-          <Title size="sm" color="secondary" shadow="2" letterSpacing="2">
+          <Title size="sm" color="primary" shadow="2" letterSpacing="2">
             ES MOMENTO DE
           </Title>
         </HomeLayout.Title>

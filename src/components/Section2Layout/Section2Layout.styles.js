@@ -2,6 +2,7 @@ import { styled } from "../../theme/styled";
 
 export const StyledSection2 = styled("div", {
   backgroundColor: "$primary",
+  borderTop: "1px solid $brown",
 });
 
 export const StyledSection2Title = styled("div", {
