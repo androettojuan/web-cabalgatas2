@@ -12,7 +12,7 @@ export const StyledButtonLogo = styled("div", {
   maxWidth: "260px",
   opacity: 1,
   cursor: "pointer",
-  border: "1px solid $brown",
+  border: "1px solid $primary",
 });
 
 export const StyledButtonLogoImg = styled("img", {
