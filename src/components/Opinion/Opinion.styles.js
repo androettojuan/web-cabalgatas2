@@ -3,7 +3,7 @@ import { ImQuotesLeft } from "react-icons/im";
 
 
 export const StyledOpinion = styled("div", {
-    width: "360px",
+    width: "340px",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
@@ -23,6 +23,7 @@ export const StyledOpinionText = styled("span", {
     fontWeight: "500",
     color: "$white",
     margin: "20px 0 40px 0",
+    height: "200px",
 });
 
 

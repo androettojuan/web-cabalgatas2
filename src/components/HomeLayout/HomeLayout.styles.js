@@ -44,6 +44,6 @@ export const StyledMainTitle = styled("div", {
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: "100%",
-  maxWidth: "1000px",
+  maxWidth: "1400px",
   userSelect: "none",
 });
