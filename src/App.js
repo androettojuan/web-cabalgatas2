@@ -7,14 +7,29 @@ import Section6 from "./pages/Section6";
 
 function App() {
   return (
-    <div>
+    <>
+      <div
+        style={{
+          position: "fixed",
+          top: "0",
+          left: "0",
+          width: "100%",
+          height: "100%",
+          zIndex: "-1",
+          backgroundImage: "url(/img/foto8.jpg)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          filter: "blur(8px)",
+        }}
+      ></div>
       <HomePage />
       <Section2 />
       <Section3 />
       <Section4 />
       <Section5 />
       <Section6 />
-    </div>
+    </>
   );
 }
 

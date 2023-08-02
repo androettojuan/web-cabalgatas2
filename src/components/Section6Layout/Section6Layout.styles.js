@@ -7,7 +7,7 @@ export const StyledSection6Layout = styled("div", {
   alignItems: "center",
   backgroundColor: "$brown2",
   padding: "40px 0",
-  gap: "220px",
+  gap: "200px",
 });
 
 // estilos de contactos

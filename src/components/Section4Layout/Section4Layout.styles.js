@@ -17,7 +17,7 @@ export const StyledSection4Fondo = styled("img", {
     objectFit: "cover",
     position: "absolute",
     zIndex: -1,
-    opacity: 0.7,
+    opacity: 0.9,
 });
 
 export const StyledSection4Text = styled("div", {
