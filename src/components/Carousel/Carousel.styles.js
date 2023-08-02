@@ -49,8 +49,8 @@ export const StyledCarouselContent = styled("div", {
 });
 
 export const StyledCarouselContentPhoto = styled("img", {
-  width: "380px",
-  height: "320px",
+  width: "460px",
+  height: "400px",
   objectFit: "cover",
   border: "1px solid $grey",
   variants: {
@@ -68,8 +68,8 @@ export const StyledCarouselContentPhoto = styled("img", {
       false: {
         opacity: "0.5",
         transition: "opacity 0.4s ease-in-out",
-        width: "300px",
-        height: "240px",
+        width: "380px",
+        height: "340px",
         margin: "0 160px",
       },
       none: {
