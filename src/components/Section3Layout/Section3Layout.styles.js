@@ -7,8 +7,8 @@ export const StyledSection3Layout = styled("div", {
   alignItems: "center",
   position: "relative",
   height: "768px",
-  borderTop: "1px solid $brown",
-  borderBottom: "1px solid $primary",
+  borderTop: "1px solid $litebrown",
+  borderBottom: "1px solid $litebrown",
   backgroundColor: "$litebrown",
 });
 
