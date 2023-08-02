@@ -14,8 +14,8 @@ export const StyledSection7LayoutButton = styled("div", {
   backgroundColor: "$litebrown",
   borderRadius: "36px",
   textAlign: "center",
-  cursor: "pointer",
   width: "fit-content",
+  userSelect: "none",
 });
 
 export const StyledSection7LayoutButtonText = styled("span", {
@@ -31,14 +31,14 @@ export const StyledSection7Logo = styled("img", {
 });
 
 export const StyledSection7Icons = styled("div", {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    gap: "24px",
-    cursor: "pointer",
-    marginTop: "24px",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  gap: "24px",
+  cursor: "pointer",
+  marginTop: "24px",
 });
 
 export const StyledSection7Icon = styled("img", {
-    width: "58px",
+  width: "58px",
 });
