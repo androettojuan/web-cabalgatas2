@@ -15,6 +15,26 @@ export const StyledButton = styled("button", {
   cursor: "pointer",
   borderRadius: "50%",
   zIndex: "2",
+  "@media (max-width: 1600px)": {
+    width: "46px",
+    height: "46px",
+  },
+  "@media (max-width: 1200px)": {
+    width: "42px",
+    height: "42px",
+  },
+  "@media (max-width: 900px)": {
+    width: "38px",
+    height: "38px",
+  },
+  "@media (max-width: 700px)": {
+    width: "34px",
+    height: "34px",
+  },
+  "@media (max-width: 600px)": {
+    width: "30px",
+    height: "30px",
+  },
   variants: {
     color: {
       next: {
@@ -25,6 +45,21 @@ export const StyledButton = styled("button", {
         right: "240px",
         top: "50%",
         transform: "translateY(-50%)",
+        "@media (max-width: 1600px)": {
+          right: "200px",
+        },
+        "@media (max-width: 1200px)": {
+          right: "160px",
+        },
+        "@media (max-width: 900px)": {
+          right: "140px",
+        },
+        "@media (max-width: 700px)": {
+          right: "120px",
+        },
+        "@media (max-width: 600px)": {
+          right: "80px",
+        },
       },
       back: {
         backgroundColor: "$brown",
@@ -34,6 +69,21 @@ export const StyledButton = styled("button", {
         left: "240px",
         top: "50%",
         transform: "translateY(-50%)",
+        "@media (max-width: 1600px)": {
+          left: "200px",
+        },
+        "@media (max-width: 1200px)": {
+          left: "160px",
+        },
+        "@media (max-width: 900px)": {
+          left: "120px",
+        },
+        "@media (max-width: 700px)": {
+          left: "120px",
+        },
+        "@media (max-width: 600px)": {
+          left: "80px",
+        },
       },
     },
   },
@@ -46,6 +96,21 @@ export const StyledCarouselContent = styled("div", {
   alignItems: "center",
   position: "relative",
   margin: "60px 0",
+  "@media (max-width: 1600px)": {
+    margin: "40px 0",
+  },
+  "@media (max-width: 1200px)": {
+    margin: "20px 0",
+  },
+  "@media (max-width: 900px)": {
+    margin: "20px 0",
+  },
+  "@media (max-width: 700px)": {
+    margin: "20px 0",
+  },
+  "@media (max-width: 600px)": {
+    margin: "20px 0",
+  },
 });
 
 export const StyledCarouselContentPhoto = styled("img", {
@@ -53,6 +118,26 @@ export const StyledCarouselContentPhoto = styled("img", {
   height: "400px",
   objectFit: "cover",
   border: "1px solid $grey",
+  "@media (max-width: 1600px)": {
+    width: "420px",
+    height: "360px",
+  },
+  "@media (max-width: 1200px)": {
+    width: "380px",
+    height: "320px",
+  },
+  "@media (max-width: 900px)": {
+    width: "300px",
+    height: "240px",
+  },
+  "@media (max-width: 700px)": {
+    width: "300px",
+    height: "240px",
+  },
+  "@media (max-width: 600px)": {
+    width: "300px",
+    height: "240px",
+  },
   variants: {
     current: {
       true: {
@@ -64,6 +149,31 @@ export const StyledCarouselContentPhoto = styled("img", {
         transform: "translate(-50%, -50%)",
         transition: "none 0.5s ease-in-out",
         transitionProperty: "opacity, width, height",
+        "@media (max-width: 1600px)": {
+          width: "420px",
+          height: "360px",
+          margin: "0",
+        },
+        "@media (max-width: 1200px)": {
+          width: "380px",
+          height: "320px",
+          margin: "0",
+        },
+        "@media (max-width: 900px)": {
+          width: "300px",
+          height: "240px",
+          margin: "0",
+        },
+        "@media (max-width: 700px)": {
+          width: "260px",
+          height: "200px",
+          margin: "0",
+        },
+        "@media (max-width: 600px)": {
+          width: "260px",
+          height: "200px",
+          margin: "0",
+        },
       },
       false: {
         opacity: "0.5",
@@ -71,6 +181,32 @@ export const StyledCarouselContentPhoto = styled("img", {
         width: "380px",
         height: "340px",
         margin: "0 160px",
+        "@media (max-width: 1600px)": {
+          width: "340px",
+          height: "300px",
+          margin: "0 140px",
+        },
+        "@media (max-width: 1200px)": {
+          width: "300px",
+          height: "260px",
+          margin: "0 120px",
+        },
+        "@media (max-width: 900px)": {
+          width: "240px",
+          height: "200px",
+          margin: "0 100px",
+        },
+
+        "@media (max-width: 760px)": {
+          width: "220px",
+          height: "180px",
+          margin: "0 60px",
+        },
+        "@media (max-width: 600px)": {
+          width: "180px",
+          height: "140px",
+          margin: "0 80px",
+        },
       },
       none: {
         display: "none",
@@ -78,3 +214,8 @@ export const StyledCarouselContentPhoto = styled("img", {
     },
   },
 });
+
+// "@media (max-width: 1600px)": {},
+// "@media (max-width: 1200px)": {},
+// "@media (max-width: 899px)": {},
+// "@media (max-width: 600px)": {},
