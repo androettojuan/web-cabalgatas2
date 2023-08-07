@@ -2,6 +2,7 @@ import { styled } from "../../theme/styled";
 
 export const StyledTitle = styled("h1", {
   margin: 0,
+  textAlign: "center",
   variants: {
     color: {
       secondary: { color: "$secondary" },
@@ -19,11 +20,66 @@ export const StyledTitle = styled("h1", {
       dark: { color: "$dark" },
     },
     size: {
-      xs: { fontSize: "18px" },
-      sm: { fontSize: "28px" },
-      md: { fontSize: "42px" },
-      lg: { fontSize: "50px" },
-      xl: { fontSize: "68px" },
+      xs: {
+        fontSize: "18px",
+        "@media (max-width: 1200px)": {
+          fontSize: "16px",
+        },
+        "@media (max-width: 900px)": {
+          fontSize: "14px",
+        },
+        "@media (max-width: 600px)": {
+          fontSize: "10px",
+        },
+      },
+      sm: {
+        fontSize: "28px",
+        "@media (max-width: 1200px)": {
+          fontSize: "24px",
+        },
+        "@media (max-width: 900px)": {
+          fontSize: "20px",
+        },
+        "@media (max-width: 600px)": {
+          fontSize: "14px",
+        },
+      },
+      md: {
+        fontSize: "42px",
+        "@media (max-width: 1200px)": {
+          fontSize: "36px",
+        },
+        "@media (max-width: 900px)": {
+          fontSize: "24px",
+        },
+        "@media (max-width: 600px)": {
+          fontSize: "18px",
+        },
+      },
+      lg: {
+        fontSize: "50px",
+        "@media (max-width: 1200px)": {
+          fontSize: "44px",
+        },
+        "@media (max-width: 900px)": {
+          fontSize: "30px",
+        },
+        "@media (max-width: 600px)": {
+          fontSize: "24px",
+        },
+      },
+      xl: {
+        fontSize: "68px",
+        "@media (max-width: 1200px)": {
+          fontSize: "60px",
+        },
+        "@media (max-width: 900px)": {
+          fontSize: "42px",
+        },
+        "@media (max-width: 600px)": {
+          fontSize: "32px",
+        },
+      },
     },
     shadow: {
       0: {},

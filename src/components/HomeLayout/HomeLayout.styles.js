@@ -36,6 +36,18 @@ export const StyledTitle = styled("div", {
   transform: "translate(-50%, -50%)",
   zIndex: 20,
   margin: "18px 0",
+  "@media (min-width: 1200px) and (max-width: 1599px)": {
+    top: "68px",
+  },
+  "@media (min-width: 900px) and (max-width: 1199px)": {
+    top: "46px",
+  },
+  "@media (max-width: 899px)": {
+    top: "38px",
+  },
+  "@media (max-width: 600px)": {
+    top: "30px",
+  },
 });
 
 export const StyledMainTitle = styled("div", {
