@@ -10,12 +10,24 @@ export const StyledTitle = styled("h1", {
         color: "$white",
         textShadow:
           "3px 3px 0px #865333, -3px -3px 0px #865333, 3px -3px 0px #865333, -3px 3px 0px #865333",
+        "@media (max-width: 900px)": {
+          textShadow:
+            "2px 2px 0px #865333, -2px -2px 0px #865333, 2px -2px 0px #865333, -2px 2px 0px #865333",
+        },
+        "@media (max-width: 600px)": {
+          textShadow:
+            "1px 1px 0px #865333, -1px -1px 0px #865333, 1px -1px 0px #865333, -1px 1px 0px #865333",
+        },
       },
       brown: { color: "$brown" },
       primary: {
         color: "$primary",
         textShadow:
           "2px 2px 0px #865233, -2px -2px 0px #8652, 2px -2px 0px #8652, -2px 2px 0px #865233",
+        "@media (max-width: 900px)": {
+          textShadow:
+            "1px 1px 0px #865233, -1px -1px 0px #8652, 1px -1px 0px #8652, -1px 1px 0px #865233",
+        },
       },
       dark: { color: "$dark" },
     },
@@ -28,9 +40,6 @@ export const StyledTitle = styled("h1", {
         "@media (max-width: 900px)": {
           fontSize: "14px",
         },
-        "@media (max-width: 600px)": {
-          fontSize: "10px",
-        },
       },
       sm: {
         fontSize: "28px",
@@ -40,9 +49,6 @@ export const StyledTitle = styled("h1", {
         "@media (max-width: 900px)": {
           fontSize: "20px",
         },
-        "@media (max-width: 600px)": {
-          fontSize: "14px",
-        },
       },
       md: {
         fontSize: "42px",
@@ -51,9 +57,6 @@ export const StyledTitle = styled("h1", {
         },
         "@media (max-width: 900px)": {
           fontSize: "24px",
-        },
-        "@media (max-width: 600px)": {
-          fontSize: "18px",
         },
       },
       lg: {

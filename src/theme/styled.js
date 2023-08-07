@@ -29,6 +29,7 @@ export const {
       brown: "#865333",
       brown2: "#623E2A",
       litebrown: "#E2D3BA",
+      litebrown2: "#D1C1A9",
       dark: "#333333",
       grey: "#a1a1a1",
       secondary: "#efebe5",

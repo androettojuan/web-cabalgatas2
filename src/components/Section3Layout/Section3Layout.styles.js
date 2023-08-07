@@ -20,16 +20,51 @@ export const StyledSection3Fondo1 = styled("div", {
   bottom: "0",
   left: "50%",
   transform: "translateX(-50%)",
+  "@media (max-width: 1600px)": {
+    width: "360px",
+  },
+  "@media (max-width: 1200px)": {
+    width: "340px",
+  },
+  "@media (max-width: 900px)": {
+    width: "320px",
+  },
+  "@media (max-width: 700px)": {
+    width: "300px",
+  },
+  "@media (max-width: 600px)": {
+    width: "280px",
+  },
 });
 
 export const StyledSection3Fondo2 = styled("div", {
   width: "440px",
   height: "280px",
-  backgroundColor: "$litebrown",
+  backgroundColor: "$litebrown2",
   position: "absolute",
   top: "100px",
   left: "50%",
   transform: "translateX(-56%)",
+  "@media (max-width: 1600px)": {
+    width: "420px",
+    height: "260px",
+  },
+  "@media (max-width: 1200px)": {
+    width: "400px",
+    height: "240px",
+  },
+  "@media (max-width: 900px)": {
+    width: "380px",
+    height: "220px",
+  },
+  "@media (max-width: 700px)": {
+    width: "360px",
+    height: "200px",
+  },
+  "@media (max-width: 600px)": {
+    width: "340px",
+    height: "180px",
+  },
 });
 
 export const StyledSection3Img = styled("img", {
@@ -41,6 +76,26 @@ export const StyledSection3Img = styled("img", {
   top: "80px",
   left: "50%",
   transform: "translateX(-50%)",
+  "@media (max-width: 1600px)": {
+    width: "420px",
+    height: "260px",
+  },
+  "@media (max-width: 1200px)": {
+    width: "400px",
+    height: "240px",
+  },
+  "@media (max-width: 900px)": {
+    width: "380px",
+    height: "220px",
+  },
+  "@media (max-width: 700px)": {
+    width: "360px",
+    height: "200px",
+  },
+  "@media (max-width: 600px)": {
+    width: "340px",
+    height: "180px",
+  },
 });
 
 export const StyledSection3Content = styled("div", {
@@ -52,4 +107,19 @@ export const StyledSection3Content = styled("div", {
   textAlign: "center",
   width: "480px",
   marginTop: "400px",
+  "@media (max-width: 1600px)": {
+    width: "460px",
+  },
+  "@media (max-width: 1200px)": {
+    width: "440px",
+  },
+  "@media (max-width: 900px)": {
+    width: "420px",
+  },
+  "@media (max-width: 700px)": {
+    width: "400px",
+  },
+  "@media (max-width: 600px)": {
+    width: "380px",
+  },
 });

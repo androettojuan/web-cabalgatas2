@@ -15,11 +15,36 @@ export const StyledParagraph = styled("p", {
       },
     },
     size: {
-      xs: { fontSize: "14px" },
-      sm: { fontSize: "16px" },
-      md: { fontSize: "18px" },
-      lg: { fontSize: "20px" },
-      xl: { fontSize: "26px" },
+      xs: {
+        fontSize: "14px",
+        "@media (max-width: 900px)": {
+          fontSize: "10px",
+        },
+      },
+      sm: {
+        fontSize: "16px",
+        "@media (max-width: 900px)": {
+          fontSize: "12px",
+        },
+      },
+      md: {
+        fontSize: "18px",
+        "@media (max-width: 900px)": {
+          fontSize: "14px",
+        },
+      },
+      lg: {
+        fontSize: "20px",
+        "@media (max-width: 900px)": {
+          fontSize: "16px",
+        },
+      },
+      xl: {
+        fontSize: "26px",
+        "@media (max-width: 900px)": {
+          fontSize: "22px",
+        },
+      },
     },
   },
 });
