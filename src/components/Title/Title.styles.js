@@ -56,7 +56,7 @@ export const StyledTitle = styled("h1", {
           fontSize: "36px",
         },
         "@media (max-width: 900px)": {
-          fontSize: "24px",
+          fontSize: "28px",
         },
       },
       lg: {
@@ -67,9 +67,6 @@ export const StyledTitle = styled("h1", {
         "@media (max-width: 900px)": {
           fontSize: "30px",
         },
-        "@media (max-width: 600px)": {
-          fontSize: "24px",
-        },
       },
       xl: {
         fontSize: "68px",
@@ -77,10 +74,7 @@ export const StyledTitle = styled("h1", {
           fontSize: "60px",
         },
         "@media (max-width: 900px)": {
-          fontSize: "42px",
-        },
-        "@media (max-width: 600px)": {
-          fontSize: "32px",
+          fontSize: "46px",
         },
       },
     },

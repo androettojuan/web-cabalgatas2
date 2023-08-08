@@ -51,7 +51,7 @@ export const StyledButton = styled("button", {
           right: "140px",
         },
         "@media (max-width: 700px)": {
-          right: "250px",
+          right: "270px",
         },
       },
       back: {
@@ -72,7 +72,7 @@ export const StyledButton = styled("button", {
           left: "120px",
         },
         "@media (max-width: 700px)": {
-          left: "250px",
+          left: "270px",
         },
       },
     },

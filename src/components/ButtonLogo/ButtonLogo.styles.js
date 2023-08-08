@@ -13,12 +13,19 @@ export const StyledButtonLogo = styled("div", {
   opacity: 1,
   cursor: "pointer",
   border: "1px solid $primary",
+  "@media (max-width: 1200px)": {
+    maxWidth: "200px",
+  },
 });
 
 export const StyledButtonLogoImg = styled("img", {
   width: "56px",
   height: "56px",
   objectFit: "cover",
+  "@media (max-width: 1200px)": {
+    width: "40px",
+    height: "40px",
+  },
 });
 
 export const StyledButtonLogoText = styled("span", {
@@ -26,4 +33,7 @@ export const StyledButtonLogoText = styled("span", {
   fontWeight: "600",
   color: "$brown",
   textAlign: "center",
+  "@media (max-width: 1200px)": {
+    fontSize: "18px",
+  },
 });

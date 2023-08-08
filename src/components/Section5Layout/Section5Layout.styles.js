@@ -39,4 +39,14 @@ export const StyledSection5Opinions = styled("div", {
   alignItems: "center",
   gap: "40px",
   flexDirection: "row",
+  "@media (max-width: 900px)": {
+    display: "none",
+  },
+});
+
+export const StyledSection5Carousel = styled("div", {
+  display: "none",
+  "@media (max-width: 900px)": {
+    display: "flex",
+  },
 });
