@@ -1,5 +1,6 @@
 import {
   StyledSection4Buttons,
+  StyledSection4Content,
   StyledSection4Fondo,
   StyledSection4Layout,
   StyledSection4Text,
@@ -12,5 +13,7 @@ Section4Layout.Fondo = StyledSection4Fondo;
 Section4Layout.Text = StyledSection4Text;
 
 Section4Layout.Buttons = StyledSection4Buttons;
+
+Section4Layout.Content = StyledSection4Content;
 
 export default Section4Layout;

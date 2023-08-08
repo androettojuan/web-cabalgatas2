@@ -2,6 +2,7 @@ import { styled } from "../../theme/styled";
 
 export const StyledContainer = styled("div", {
   maxWidth: "1200px",
+  width: "100%",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
