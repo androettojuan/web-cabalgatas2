@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header/Header";
 import HomeLayout from "../components/HomeLayout/HomeLayout";
-import { StyledHomeLayoutImg } from "../components/HomeLayout/HomeLayout.styles";
+import { StyledHomeLayoutImg, StyledMainTitleImg } from "../components/HomeLayout/HomeLayout.styles";
 import Title from "../components/Title/Title";
 
 const HomePage = () => {
@@ -17,7 +17,7 @@ const HomePage = () => {
           </Title>
         </HomeLayout.Title>
         <HomeLayout.MainTitle>
-          <StyledHomeLayoutImg src="img/title-home.png" alt="main-title" />
+          <StyledMainTitleImg src="img/title-home.png" alt="main-title" />
         </HomeLayout.MainTitle>
       </HomeLayout.Fondo>
     </HomeLayout>

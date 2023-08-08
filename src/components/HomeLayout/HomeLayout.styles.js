@@ -12,6 +12,7 @@ export const StyledHomeLayoutFondo = styled("div", {
   justifyContent: "center",
   position: "relative",
   borderTop: "1px solid $litebrown",
+
 });
 
 export const StyledHomeLayoutFondoOscuro = styled("div", {
@@ -27,6 +28,10 @@ export const StyledHomeLayoutFondoOscuro = styled("div", {
 
 export const StyledHomeLayoutImg = styled("img", {
   width: "100%",
+  "@media (max-width: 600px)": {
+    height: "500px",
+    objectFit: "cover",
+  },
 });
 
 export const StyledTitle = styled("div", {
@@ -46,7 +51,17 @@ export const StyledTitle = styled("div", {
     top: "38px",
   },
   "@media (max-width: 600px)": {
-    top: "30px",
+    top: "80px",
+    whiteSpace: "nowrap",
+
+  },
+});
+
+export const StyledMainTitleImg = styled("img", {
+  width: "100%",
+  "@media (max-width: 600px)": {
+    height: "160px",
+    objectFit: "cover",
   },
 });
 
@@ -58,4 +73,7 @@ export const StyledMainTitle = styled("div", {
   width: "100%",
   maxWidth: "1400px",
   userSelect: "none",
+  "@media (max-width: 600px)": {
+    maxWidth: "100%",
+  },
 });

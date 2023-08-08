@@ -39,6 +39,9 @@ export const StyledSection4Text = styled("div", {
   width: "560px",
   textAlign: "center",
   margin: "100px 0 100px 40px",
+  "@media only screen and (max-width: 1200px)": {
+    margin: "0 0 40px 0",
+  },
 });
 
 export const StyledSection4Buttons = styled("div", {

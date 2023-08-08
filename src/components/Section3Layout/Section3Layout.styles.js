@@ -10,6 +10,10 @@ export const StyledSection3Layout = styled("div", {
   borderTop: "1px solid $litebrown",
   borderBottom: "1px solid $litebrown",
   backgroundColor: "$litebrown",
+  "@media (max-width: 600px)": {
+    height: "480px",
+    paddingBottom: "100px",
+  },
 });
 
 export const StyledSection3Fondo1 = styled("div", {
