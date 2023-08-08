@@ -8,6 +8,10 @@ export const StyledSection6Layout = styled("div", {
   backgroundColor: "$brown2",
   padding: "40px 0",
   gap: "200px",
+  "@media (max-width: 600px)": {
+    flexDirection: "column",
+    gap: "40px",
+  },
 });
 
 // estilos de contactos
@@ -21,6 +25,10 @@ export const StyledSection6LayoutContact = styled("div", {
   justifyContent: "center",
   width: "380px",
   height: "340px",
+  "@media (max-width: 600px)": {
+    width: "280px",
+    height: "240px",
+  },
 });
 
 export const StyledSection6Title = styled("div", {
@@ -46,12 +54,18 @@ export const StyledSection6Text = styled("span", {
   color: "$secondary",
   fontSize: "18px",
   fontWeight: "700",
+  "@media (max-width: 600px)": {
+    fontSize: "14px",
+  },
 });
 
 export const StyledSection6Icon = styled("div", {
   color: "$secondary",
   fontSize: "48px",
   marginRight: "8px",
+  "@media (max-width: 600px)": {
+    fontSize: "44px",
+  },
 });
 
 // estilos de mapa
@@ -65,9 +79,17 @@ export const StyledSection6LayoutMap = styled("div", {
   justifyContent: "center",
   width: "380px",
   height: "340px",
+  "@media (max-width: 600px)": {
+    width: "280px",
+    height: "240px",
+  },
 });
 
 export const StyledSection6Map = styled("iframe", {
   width: "380px",
   height: "340px",
+  "@media (max-width: 600px)": {
+    width: "280px",
+    height: "240px",
+  },
 });

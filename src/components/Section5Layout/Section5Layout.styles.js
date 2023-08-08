@@ -28,6 +28,9 @@ export const StyledSection5Subtitle = styled("div", {
   textAlign: "center",
   width: "800px",
   marginBottom: "80px",
+  "@media (max-width: 600px)": {
+    width: "90%",
+  },
 });
 
 export const StyledSection5Opinions = styled("div", {

@@ -41,6 +41,7 @@ export const StyledSection4Text = styled("div", {
   margin: "100px 0 100px 40px",
   "@media only screen and (max-width: 1200px)": {
     margin: "0 0 40px 0",
+    width: "90%",
   },
 });
 
