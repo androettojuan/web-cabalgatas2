@@ -31,10 +31,6 @@ export const StyledButton = styled("button", {
     width: "34px",
     height: "34px",
   },
-  "@media (max-width: 600px)": {
-    width: "30px",
-    height: "30px",
-  },
   variants: {
     color: {
       next: {
@@ -55,10 +51,7 @@ export const StyledButton = styled("button", {
           right: "140px",
         },
         "@media (max-width: 700px)": {
-          right: "120px",
-        },
-        "@media (max-width: 600px)": {
-          right: "80px",
+          right: "250px",
         },
       },
       back: {
@@ -79,10 +72,7 @@ export const StyledButton = styled("button", {
           left: "120px",
         },
         "@media (max-width: 700px)": {
-          left: "120px",
-        },
-        "@media (max-width: 600px)": {
-          left: "80px",
+          left: "250px",
         },
       },
     },
@@ -108,9 +98,6 @@ export const StyledCarouselContent = styled("div", {
   "@media (max-width: 700px)": {
     margin: "20px 0",
   },
-  "@media (max-width: 600px)": {
-    margin: "20px 0",
-  },
 });
 
 export const StyledCarouselContentPhoto = styled("img", {
@@ -131,10 +118,6 @@ export const StyledCarouselContentPhoto = styled("img", {
     height: "240px",
   },
   "@media (max-width: 700px)": {
-    width: "300px",
-    height: "240px",
-  },
-  "@media (max-width: 600px)": {
     width: "300px",
     height: "240px",
   },
@@ -165,13 +148,8 @@ export const StyledCarouselContentPhoto = styled("img", {
           margin: "0",
         },
         "@media (max-width: 700px)": {
-          width: "260px",
-          height: "200px",
-          margin: "0",
-        },
-        "@media (max-width: 600px)": {
-          width: "260px",
-          height: "200px",
+          width: "300px",
+          height: "240px",
           margin: "0",
         },
       },
@@ -197,15 +175,10 @@ export const StyledCarouselContentPhoto = styled("img", {
           margin: "0 100px",
         },
 
-        "@media (max-width: 760px)": {
-          width: "220px",
-          height: "180px",
-          margin: "0 60px",
-        },
-        "@media (max-width: 600px)": {
-          width: "180px",
-          height: "140px",
-          margin: "0 80px",
+        "@media (max-width: 700px)": {
+          visibility: "hidden",
+          opacity: "0",
+          margin: "0 100px",
         },
       },
       none: {
