@@ -6,9 +6,9 @@ import {
 } from "./Opinion.styles";
 import ButtonLogo from "../ButtonLogo/ButtonLogo";
 
-const Opinion = ({ opinion, icon, name }) => {
+const Opinion = ({ opinion, icon, name, onClick }) => {
   return (
-    <StyledOpinion>
+    <StyledOpinion onClick={onClick}>
       <StyledComillas />
       <StyledOpinionText>{opinion}</StyledOpinionText>
       <ButtonLogo text={name} icon={icon}></ButtonLogo>

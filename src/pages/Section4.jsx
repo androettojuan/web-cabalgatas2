@@ -31,6 +31,12 @@ const Section4 = () => {
             <ButtonLogo
               text="Whatsapp"
               icon={"/img/redes/whatsapp.jpg"}
+              onClick={() =>
+                window.open(
+                  "https://api.whatsapp.com/send?phone=5493547575100",
+                  "_blank"
+                )
+              }
             ></ButtonLogo>
           </Section4Layout.Buttons>
         </Section4Layout.Content>
