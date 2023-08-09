@@ -77,6 +77,15 @@ export const StyledTitle = styled("h1", {
           fontSize: "46px",
         },
       },
+      xxl: {
+        fontSize: "100px",
+        "@media (max-width: 1200px)": {
+          fontSize: "80px",
+        },
+        "@media (max-width: 900px)": {
+          fontSize: "60px",
+        },
+      },
     },
     shadow: {
       0: {},
