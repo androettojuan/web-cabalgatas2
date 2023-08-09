@@ -7,6 +7,7 @@ export const StyledSection6Layout = styled("div", {
   alignItems: "center",
   backgroundColor: "$brown2",
   padding: "40px 0",
+  width: "100%",
   gap: "200px",
   "@media (max-width: 1200px)": {
     gap: "100px",

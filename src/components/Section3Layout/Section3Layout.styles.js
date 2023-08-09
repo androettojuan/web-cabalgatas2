@@ -7,6 +7,7 @@ export const StyledSection3Layout = styled("div", {
   alignItems: "center",
   position: "relative",
   height: "768px",
+  width: "100%",
   borderTop: "1px solid $litebrown",
   borderBottom: "1px solid $litebrown",
   backgroundColor: "$litebrown",
@@ -124,6 +125,6 @@ export const StyledSection3Content = styled("div", {
     width: "400px",
   },
   "@media (max-width: 600px)": {
-    width: "380px",
+    width: "340px",
   },
 });

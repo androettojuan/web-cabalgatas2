@@ -7,6 +7,7 @@ export const StyledSection7Layout = styled("div", {
   justifyContent: "center",
   backgroundColor: "$secondary",
   padding: "40px 0",
+  width: "100%",
 });
 
 export const StyledSection7LayoutButton = styled("div", {

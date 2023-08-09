@@ -3,6 +3,7 @@ import { styled } from "../../theme/styled";
 export const StyledHomeLayout = styled("div", {
   display: "flex",
   flexDirection: "column",
+  width: "100%",
 });
 
 export const StyledHomeLayoutFondo = styled("div", {

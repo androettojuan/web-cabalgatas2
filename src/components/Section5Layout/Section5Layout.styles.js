@@ -7,6 +7,7 @@ export const StyledSection5Layout = styled("div", {
   justifyContent: "center",
   position: "relative",
   padding: "40px 0 80px 0",
+  width: "100%",
 });
 
 export const StyledSection5Fondo = styled("img", {
