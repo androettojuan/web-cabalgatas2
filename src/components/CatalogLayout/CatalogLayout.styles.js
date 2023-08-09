@@ -3,9 +3,8 @@ import { styled } from "../../theme/styled";
 export const StyledCatalogLayout = styled("div", {
   display: "flex",
   flexDirection: "column",
-  alignItems: "center",
-  justifyContent: "center",
   backgroundColor: "$white",
+  width: "100%",
   paddingBottom: "20px",
   cursor: "pointer",
 });
@@ -27,5 +26,6 @@ export const StyledCatalogLayoutContent = styled("div", {
   gap: "30px",
   "@media (max-width: 900px)": {
     gap: "10px",
+    maxWidth: "600px",
   },
 });

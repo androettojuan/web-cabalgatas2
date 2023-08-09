@@ -4,6 +4,7 @@ import Title from "../components/Title/Title";
 import Section2Layout from "../components/Section2Layout/Section2Layout";
 import Button from "../components/Button/Button";
 import Container from "../components/Container/Container";
+import { useNavigate } from "react-router-dom";
 
 const images = [
   {
@@ -27,6 +28,7 @@ const images = [
 ];
 
 const Section2 = () => {
+  const navigate = useNavigate();
   return (
     <Section2Layout>
       <Container>
@@ -37,7 +39,7 @@ const Section2 = () => {
         </Section2Layout.Title>
         <Carousel images={images} />
         <Section2Layout.Button>
-          <Button color="primary" size="md">
+          <Button color="primary" size="md" onClick={() => navigate("/catalogo")}>
             MÁS DETALLES
           </Button>
         </Section2Layout.Button>

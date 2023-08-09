@@ -2,6 +2,8 @@ import React from "react";
 import Photo from "../components/Photo/Photo";
 import CatalogLayout from "../components/CatalogLayout/CatalogLayout";
 import Title from "../components/Title/Title";
+import Header from "../components/Header/Header";
+import Container from "../components/Container/Container";
 
 const catalogo = [
   {
@@ -49,14 +51,19 @@ const catalogo = [
 const CatalogPage = () => {
   return (
     <CatalogLayout>
-      <CatalogLayout.Title>
-        <Title size={"xxl"} color={"primary"}>Elegí tu Aventura!</Title>
-      </CatalogLayout.Title>
-      <CatalogLayout.Content>
-      {catalogo.map((item) => (
-        <Photo key={item.id} src={item.src} text={item.text} />
-      ))}
-      </CatalogLayout.Content>
+      <Header />
+      <Container>
+        <CatalogLayout.Title>
+          <Title size={"xxl"} color={"primary"}>
+            Elegí tu Aventura!
+          </Title>
+        </CatalogLayout.Title>
+        <CatalogLayout.Content>
+          {catalogo.map((item) => (
+            <Photo key={item.id} src={item.src} text={item.text} />
+          ))}
+        </CatalogLayout.Content>
+      </Container>
     </CatalogLayout>
   );
 };
