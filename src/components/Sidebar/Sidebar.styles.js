@@ -47,10 +47,33 @@ export const StyledSidebarMenuButton = styled("button", {
   backgroundColor: "transparent",
   padding: "16px",
   cursor: "pointer",
-  fontSize: "18px",
+  fontSize: "20px",
+  fontWeight: "500",
+  whiteSpace: "nowrap",
+  fontFamily:"sans-serif",
+  "&:last-child": {
+    borderBottom: "none",
+  },
+});
+
+export const StyledSidebarMenuButtonLink = styled("a", {
+  borderLeft: "none",
+  borderRight: "none",
+  borderTop: "none",
+  borderBottom: "1px solid $grey",
+  backgroundColor: "transparent",
+  padding: "16px",
+  textAlign: "center",
+  fontFamily:"sans-serif",
+  textDecoration: "none",
+  color: "$dark",
+  cursor: "pointer",
+  fontSize: "20px",
   fontWeight: "500",
   whiteSpace: "nowrap",
   "&:last-child": {
     borderBottom: "none",
   },
 });
+
+

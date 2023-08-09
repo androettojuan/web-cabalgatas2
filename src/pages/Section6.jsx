@@ -13,7 +13,7 @@ import Title from "../components/Title/Title";
 
 const Section6 = () => {
   return (
-    <Section6Layout>
+    <Section6Layout id="contacto">
       <Section6Layout.Contacto>
         <StyledSection6Title>
           <Title size={"lg"} color={"white"} letterSpacing={1}>

@@ -3,21 +3,23 @@ import {
   StyledSidebar,
   StyledSidebarIcon,
   StyledSidebarMenuButton,
+  StyledSidebarMenuButtonLink,
   StyledSidebarMenuContainer,
 } from "./Sidebar.styles";
+import { useNavigate } from "react-router-dom";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
+
   return (
     <StyledSidebar>
       <StyledSidebarIcon onClick={() => setIsOpen(!isOpen)} />
       <StyledSidebarMenuContainer isOpen={isOpen}>
-        <StyledSidebarMenuButton>Inicio</StyledSidebarMenuButton>
-        <StyledSidebarMenuButton>Elegí tu aventura</StyledSidebarMenuButton>
-        <StyledSidebarMenuButton>Testimonios</StyledSidebarMenuButton>
-        <StyledSidebarMenuButton>Nuestro equipo</StyledSidebarMenuButton>
-        <StyledSidebarMenuButton>Preguntas frecuentes</StyledSidebarMenuButton>
-        <StyledSidebarMenuButton>Contactos</StyledSidebarMenuButton>
+        <StyledSidebarMenuButton onClick={() => navigate("/")}>Inicio</StyledSidebarMenuButton>
+        <StyledSidebarMenuButton onClick={() => navigate("/catalogo")}>Elegí tu aventura</StyledSidebarMenuButton>
+        <StyledSidebarMenuButtonLink as="a" href="#testimonios">Testimonios</StyledSidebarMenuButtonLink>
+        <StyledSidebarMenuButtonLink as="a" href="#contacto">Contactos</StyledSidebarMenuButtonLink>
       </StyledSidebarMenuContainer>
     </StyledSidebar>
   );

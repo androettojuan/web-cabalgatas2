@@ -28,7 +28,7 @@ const opinions = [
 
 const Section5 = () => {
   return (
-    <Section5Layout>
+    <Section5Layout id="testimonios">
       <Section5Layout.Fondo src="/img/foto8.jpg" />
       <Section5Layout.Title>
         <Title size="xl" color="white" shadow="2" letterSpacing="0">
