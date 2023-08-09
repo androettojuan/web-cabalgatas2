@@ -51,7 +51,7 @@ export const StyledButton = styled("button", {
           right: "140px",
         },
         "@media (max-width: 700px)": {
-          right: "270px",
+          right: "-160px",
         },
       },
       back: {
@@ -72,7 +72,7 @@ export const StyledButton = styled("button", {
           left: "120px",
         },
         "@media (max-width: 700px)": {
-          left: "270px",
+          left: "-160px",
         },
       },
     },
@@ -120,6 +120,7 @@ export const StyledCarouselContentPhoto = styled("img", {
   "@media (max-width: 700px)": {
     width: "300px",
     height: "240px",
+    shadow:2,
   },
   variants: {
     current: {
@@ -148,9 +149,9 @@ export const StyledCarouselContentPhoto = styled("img", {
           margin: "0",
         },
         "@media (max-width: 700px)": {
-          width: "300px",
-          height: "240px",
-          margin: "0",
+          width: "280px",
+          height: "220px",
+          margin: "0px",
         },
       },
       false: {
@@ -176,9 +177,7 @@ export const StyledCarouselContentPhoto = styled("img", {
         },
 
         "@media (max-width: 700px)": {
-          visibility: "hidden",
-          opacity: "0",
-          margin: "0 100px",
+          display: "none",
         },
       },
       none: {

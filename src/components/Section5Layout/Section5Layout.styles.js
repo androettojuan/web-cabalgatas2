@@ -28,7 +28,7 @@ export const StyledSection5Subtitle = styled("div", {
   textAlign: "center",
   width: "800px",
   marginBottom: "80px",
-  "@media (max-width: 600px)": {
+  "@media (max-width: 900px)": {
     width: "90%",
   },
 });

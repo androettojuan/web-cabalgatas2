@@ -5,32 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0 auto;
-  box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.8);
-}
-
-@media (min-width: 1800px) {
-  body {
-    max-width: 1600px;
-  }
-}
-
-@media (max-width: 1600px) {
-  body {
-    max-width: 1200px;
-  }
-}
-
-@media (max-width: 1200px) {
-  body {
-    max-width: 1000px;
-  }
-}
-
-@media (max-width: 600px) {
-  body {
-    width: 100%;
-  }
+  width: 100%;
 }
 
 code {

@@ -1,3 +1,4 @@
+import ContainerApp from "./components/ContainerApp/ContainerApp";
 import HomePage from "./pages/HomePage";
 import Section2 from "./pages/Section2";
 import Section3 from "./pages/Section3";
@@ -24,13 +25,15 @@ function App() {
           filter: "blur(8px)",
         }}
       ></div>
-      <HomePage />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Section7 />
+      <ContainerApp>
+        <HomePage />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+        <Section7 />
+      </ContainerApp>
     </>
   );
 }
