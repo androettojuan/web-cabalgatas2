@@ -33,6 +33,10 @@ export const StyledButton = styled("button", {
         backgroundColor: "$brown",
         color: "$white",
       },
+      secondary: {
+        backgroundColor: "$litebrown2",
+        color: "$brown",
+      },
     },
   },
 });

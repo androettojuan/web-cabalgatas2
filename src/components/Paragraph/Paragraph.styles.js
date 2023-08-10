@@ -13,6 +13,7 @@ export const StyledParagraph = styled("p", {
         textShadow:
           "1px 1px 0px #865333, -1px -1px 0px #865333, 1px -1px 0px #865333, -1px 1px 0px #865333",
       },
+      brown: { color: "$brown" },
     },
     size: {
       xs: {
