@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/web-cabalgatas2/static/css/main.8aa498c4.css",
+    "main.js": "/web-cabalgatas2/static/js/main.7fe3cfbb.js",
+    "static/js/787.bde2b64f.chunk.js": "/web-cabalgatas2/static/js/787.bde2b64f.chunk.js",
+    "index.html": "/web-cabalgatas2/index.html",
+    "main.8aa498c4.css.map": "/web-cabalgatas2/static/css/main.8aa498c4.css.map",
+    "main.7fe3cfbb.js.map": "/web-cabalgatas2/static/js/main.7fe3cfbb.js.map",
+    "787.bde2b64f.chunk.js.map": "/web-cabalgatas2/static/js/787.bde2b64f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8aa498c4.css",
+    "static/js/main.7fe3cfbb.js"
+  ]
+}
