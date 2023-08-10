@@ -4,6 +4,7 @@ import CatalogLayout from "../components/CatalogLayout/CatalogLayout";
 import Title from "../components/Title/Title";
 import Header from "../components/Header/Header";
 import Container from "../components/Container/Container";
+import { useNavigate } from "react-router-dom";
 
 const catalogo = [
   {
@@ -49,6 +50,7 @@ const catalogo = [
 ];
 
 const CatalogPage = () => {
+  const navigate = useNavigate();
   return (
     <CatalogLayout>
       <Header />
@@ -60,7 +62,12 @@ const CatalogPage = () => {
         </CatalogLayout.Title>
         <CatalogLayout.Content>
           {catalogo.map((item) => (
-            <Photo key={item.id} src={item.src} text={item.text} />
+            <Photo
+              key={item.id}
+              src={item.src}
+              text={item.text}
+              onClick={() => navigate("/catalogo/" + item.id)}
+            />
           ))}
         </CatalogLayout.Content>
       </Container>

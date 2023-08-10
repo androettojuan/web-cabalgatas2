@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <StyledHeader>
       <Container direction="row">
-        <StyledHeaderLogo src="img/logo-blanco.png" alt="logo" onClick={() => navigate("/")} />
+        <StyledHeaderLogo src="/img/logo-blanco.png" alt="logo" onClick={() => navigate("/")} />
         <Sidebar />
       </Container>
     </StyledHeader>
