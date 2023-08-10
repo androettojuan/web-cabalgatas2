@@ -16,10 +16,24 @@ const Sidebar = () => {
     <StyledSidebar>
       <StyledSidebarIcon onClick={() => setIsOpen(!isOpen)} />
       <StyledSidebarMenuContainer isOpen={isOpen}>
-        <StyledSidebarMenuButton onClick={() => navigate("/")}>Inicio</StyledSidebarMenuButton>
-        <StyledSidebarMenuButton onClick={() => navigate("/catalogo")}>Elegí tu aventura</StyledSidebarMenuButton>
-        <StyledSidebarMenuButtonLink as="a" href="#testimonios">Testimonios</StyledSidebarMenuButtonLink>
-        <StyledSidebarMenuButtonLink as="a" href="#contacto">Contactos</StyledSidebarMenuButtonLink>
+        <StyledSidebarMenuButton onClick={() => navigate("/")}>
+          Inicio
+        </StyledSidebarMenuButton>
+        <StyledSidebarMenuButton onClick={() => navigate("/catalogo")}>
+          Elegí tu aventura
+        </StyledSidebarMenuButton>
+        {
+          window.location.pathname === "/" ? (
+            <>
+              <StyledSidebarMenuButtonLink as="a" href="#testimonios">
+                Testimonios
+              </StyledSidebarMenuButtonLink>
+              <StyledSidebarMenuButtonLink as="a" href="#contacto">
+                Contactos
+              </StyledSidebarMenuButtonLink>
+            </>
+          ) : null
+        }
       </StyledSidebarMenuContainer>
     </StyledSidebar>
   );
