@@ -4,6 +4,7 @@ export const StyledAdventureLayout = styled("div", {
   display: "flex",
   flexDirection: "column",
   backgroundColor: "$white",
+  padding: "0 12px",
 });
 
 export const StyledAdventureLayoutTitle = styled("div", {
@@ -57,6 +58,11 @@ export const StyledAdventureLayoutItems = styled("div", {
     flexDirection: "row",
     flexWrap: "wrap",
     gap: "40px",
+  },
+  "@media only screen and (max-width: 360px)": {
+    flexDirection: "column",
+    flexWrap: "wrap",
+    gap: "30px",
   },
 });
 
