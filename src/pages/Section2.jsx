@@ -39,7 +39,7 @@ const Section2 = () => {
         </Section2Layout.Title>
         <Carousel images={images} />
         <Section2Layout.Button>
-          <Button color="primary" size="md" onClick={() => navigate("/catalogo")}>
+          <Button color="primary" size="lg" onClick={() => navigate("/catalogo")}>
             MÁS DETALLES
           </Button>
         </Section2Layout.Button>

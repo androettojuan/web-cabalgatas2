@@ -17,6 +17,9 @@ export const StyledAdventureLayoutPhotos = styled("div", {
   justifyContent: "center",
   gap: "40px",
   flexWrap: "wrap",
+  "@media only screen and (max-width: 768px)": {
+    gap: "20px",
+  },
 });
 
 export const StyledAdventureLayoutPhoto = styled("img", {
@@ -24,6 +27,10 @@ export const StyledAdventureLayoutPhoto = styled("img", {
   height: "420px",
   objectFit: "cover",
   borderRadius: "24px",
+  "@media only screen and (max-width: 768px)": {
+    width: "300px",
+    height: "300px",
+  },
 });
 
 export const StyledAdventureLayoutDescription = styled("div", {
@@ -41,6 +48,16 @@ export const StyledAdventureLayoutItems = styled("div", {
   alignItems: "center",
   justifyContent: "center",
   gap: "80px",
+  "@media only screen and (max-width: 1200px)": {
+    gap: "40px",
+    maxWidth: "800px",
+    margin: "0 auto",
+  },
+  "@media only screen and (max-width: 768px)": {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: "40px",
+  },
 });
 
 export const StyledAdventureLayoutButton = styled("div", {
