@@ -2,7 +2,7 @@
   "name": "web-cabalgatas",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cabalgatasydiasdecampo.com.ar",
+  "homepage": "https://cabalgatasydiasdecampo.com.ar/",
   "dependencies": {
     "@stitches/react": "^1.2.8",
     "@testing-library/jest-dom": "^5.14.1",
